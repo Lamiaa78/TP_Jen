@@ -1,5 +1,3 @@
-Sure, here's the information organized in a table using markdown:
-
 **Cas d'utilisation Authentification :**
 
 | Titre                            | Authentification                                           |
@@ -14,6 +12,20 @@ Sure, here's the information organized in a table using markdown:
 |                                  | 5. Le système renvoie l'interface correspondante.         |
 | Enchaînements d'erreur           | 4_a. Aucun compte correspondant au couple login/mot de passe : le système lève une exception ; le cas d'utilisation se termine en échec. |
 | Postconditions                   | L'utilisateur est authentifié et accède aux fonctionnalités qui lui sont dédiées. |
+
+**Cas d'utilisation S'inscrire :**
+
+| Titre                            | S'inscrire                            |
+|----------------------------------|------------------------------------------------------------|
+| Résumé                           | L'utilisateur s'inscrit sur le site pour accéder à des fonctionnalités personnalisées. |
+| Acteurs                          | Prestataire, Client, Administrateur                                                |
+| Préconditions                    | Site web accessible.                                       |
+| Scénario normal                  | 1. L'utilisateur accède à la page d'inscription.           |
+|                                  | 2. Le système affiche le formulaire d'inscription.       |
+|                                  | 3. L'utilisateur remplit le formulaire avec les informations requises. |
+|                                  | 4. Le système vérifie la validité des informations fournies. |
+| Enchaînements d'erreur            | - 4_a. Si les informations fournies ne sont pas valides, le système affiche un message d'erreur et guide l'utilisateur pour corriger les erreurs. |
+| Postconditions                   | L'utilisateur a réussi à s'inscrire et peut désormais accéder aux fonctionnalités réservées aux utilisateurs enregistrés. |
 
 
 **Cas d'utilisation Création de ticket (incident / demande) :**
